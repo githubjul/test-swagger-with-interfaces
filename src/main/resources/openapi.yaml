@@ -1,0 +1,6 @@
+prettyPrint: true
+cacheTTL: 0
+openAPI:
+  info:
+    version: '1.0.0'
+    title: 'Sample Jersey API'
