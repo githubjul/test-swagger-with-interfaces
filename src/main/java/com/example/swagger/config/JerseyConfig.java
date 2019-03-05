@@ -1,6 +1,7 @@
 package com.example.swagger.config;
 
 import com.example.swagger.resources.MainResource;
+import com.example.swagger.resources.TestApiResponseResource;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +16,7 @@ public class JerseyConfig extends ResourceConfig {
 
         register(OpenApiResource.class);
         register(MainResource.class);
+        register(TestApiResponseResource.class);
 
     }
 }

@@ -30,4 +30,6 @@ public interface SecondEndpoint<C> extends OriginalEndpoint<C> {
     default String originalEndpoint(C param) {
         return "originalEndpoint-ok";
     }
+
+
 }
